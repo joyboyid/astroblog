@@ -20,6 +20,6 @@ collections:
       - { label: "Title", name: "title", widget: "string" } # Field Title
       - { label: "Publish Date", name: "pubDate", widget: "datetime" }
       - { label: "Description", name: "description", widget: "markdown" } # Field Description
-      - { label: "Date of writing", name: "pubDate", widget: "DateTime" } # Field Date of writing
+      - { label: "Date of writing", name: "date", widget: "DateTime" } # Field Date of writing
       - { label: "Featured image", name: "heroImage", widget: "image" } # Field Featured Image
       - { label: "Body", name: "body", widget: "markdown" }

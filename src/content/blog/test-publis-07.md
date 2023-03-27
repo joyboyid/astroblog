@@ -1,9 +1,10 @@
 ---
 title: test publis 07
-date: 2023-03-27T06:47:02.644Z
+pubDate: 2023-03-27T06:47:02.644Z
 description: b﻿ro da cape banget gu debuging
 heroImage: /images/uploads/screenshot_2022-11-27_19-49-35_364035723.png
 ---
+
 ## Fakultas Kedokteran
 
 **Fakultas Kedokteran Universitas Mataram adalah fakultas yang relatif masih muda.**

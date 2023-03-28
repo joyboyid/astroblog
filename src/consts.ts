@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = 'Pringgasela Literasi';
 export const SITE_DESCRIPTION = 'Welcome to Pringgasela Literasi Blog';
+export const HOMEPAGE_URL =''

@@ -1,12 +1,15 @@
 ---
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
+import FootprintIcon from './icons/logo';
+import ThemeToggle from './ThemeToggleButton';
 ---
 
 <header class="fixed w-full pq2 z-20 backdrop-blur-md">
 	<div class="mx-auto max-w3-3xl">
 		<nav class="flex items-center gap-3 text-base">
 		<h2 class="font-semibold tracking-tighter p-2 font-mplus text-lg">
+			<FootprintIcon />
 			{SITE_TITLE}
 		</h2>
 		<div class="items-center gap-6 hidden md:flex">
@@ -15,6 +18,7 @@ import { SITE_TITLE } from '../consts';
 			<HeaderLink href="/about">About</HeaderLink>
 		</div>
 		<div class="flex-1"></div>
+		<ThemeToggle client:load/>
 		</nav>
 	</div>
 </header>
